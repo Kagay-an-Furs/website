@@ -8,7 +8,7 @@
 .event-container {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 12px;
   width: 100%;
   max-width: 800px;
   margin-top: 40px;
@@ -18,16 +18,17 @@
   display: flex;
   align-items: center;
   background: var(--primary-white);
-  border-radius: 12px;
+  /* border-radius: 12px; */
   overflow: hidden;
-  box-shadow: var(--shadow-light);
+  border: 1px solid rgb(200, 200, 200);
+  /* box-shadow: var(--shadow-light); */
   transition: transform var(--transition-speed);
   text-align: left;
 }
 
 .event-card:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-heavy);
+  transform: translateY(-3px);
+  /* box-shadow: var(--shadow-heavy); */
 }
 
 .event-image {
@@ -51,6 +52,36 @@
   color: #555;
   line-height: 1.6;
 }
+
+.furry-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 2rem 0;
+}
+
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.divider-paws {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #aaa;
+}
+
+.divider-paws .fa-paw {
+  font-size: 14px;
+}
+
+.divider-paws .fa-paw.fa-lg {
+  font-size: 20px;
+  color: #888;
+}
+
 
 @media (max-width: 600px) {
   .event-card {
