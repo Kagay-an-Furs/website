@@ -12,6 +12,7 @@
   width: 100%;
   max-width: 800px;
   margin-top: 40px;
+  animation: fade 1s;
 }
 
 .event-card {
@@ -91,5 +92,17 @@
   .event-image {
     width: 100%;
     height: 200px;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0%;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
