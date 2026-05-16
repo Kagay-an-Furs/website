@@ -82,11 +82,9 @@
 #center-image {
   display: block;
   margin: 0 auto 25px auto;
-  width: 80%; /* Takes up more of the screen to make it look larger */
-  max-width: 650px; /* Locks the maximum size so it doesn't get ridiculously huge on ultra-wide desktop monitors */
+  width: 800px !important; /* The !important forces this rule to win */
+  max-width: 100% !important;
   height: auto;
-  object-fit: cover;
-  animation: fadeIn 1s ease forwards;
 }
 
   .button-container {
