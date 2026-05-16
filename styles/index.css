@@ -78,15 +78,6 @@
     color: var(--white);
   }
 
-  /* Updated center-image to be larger and centered */
-#center-image {
-  display: block;
-  margin: 0 auto 25px auto;
-  width: 800px !important; /* The !important forces this rule to win */
-  max-width: 100% !important;
-  height: auto;
-}
-
   .button-container {
     display: flex;
     gap: 15px;
