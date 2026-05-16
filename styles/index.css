@@ -79,14 +79,15 @@
   }
 
   /* Updated center-image to be larger and centered */
-  #center-image {
-    display: block;
-    margin: 0 auto 25px auto; /* Centered horizontally with a 25px bottom margin */
-    width: 50%;
-    height: auto;
-    object-fit: cover;
-    animation: fadeIn 1s ease forwards;
-  }
+#center-image {
+  display: block;
+  margin: 0 auto 25px auto;
+  width: 50%; /* Keeps your 50% width */
+  min-width: 350px; /* Forces the image to stay at least 350px wide on mobile */
+  height: auto;
+  object-fit: cover;
+  animation: fadeIn 1s ease forwards;
+}
 
   .button-container {
     display: flex;
