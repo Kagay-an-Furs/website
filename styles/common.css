@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
 :root {
   --primary-black: #000000;
   --primary-white: #ffffff;
@@ -59,7 +68,7 @@ h1 {
   align-items: center;
   list-style: none;
   justify-content: center;
-  gap: 12px;
+  gap: 40px;
   position: fixed;
   background-color: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(8px);
@@ -79,7 +88,22 @@ h1 {
 .navbar-title {
   display: flex;
   align-items: center !important;
-  gap: 12px;
+  gap: 22px;
+}
+
+.home-link:hover {
+  text-decoration: underline;
+}
+
+.outside-link {
+  padding: 2px 8px;
+  border-radius: 5px;
+  transition: .1s ease-in-out;
+
+}
+
+.outside-link:hover {
+  background-color: var(--gray);
 }
 
 .nav-links {
@@ -87,7 +111,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 18px;
   margin: 0;
   padding: 0;
   font-size: 17px;
@@ -153,9 +177,9 @@ li a {
   font-weight: 400;
 }
 
-.nav-links a:hover {
+/* .nav-links a:hover {
   color: var(--primary-black);
-}
+} */
 
 .dropdown {
   position: relative;

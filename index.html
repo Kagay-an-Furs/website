@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/index.css">
 
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 
@@ -29,12 +32,14 @@
                 <h1>KFM</h1>
             </div>
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="events.html">Events</a></li>
+                <li><a href="index.html" class="home-link">Home</a></li>
+                <!-- <li><a href="events.html">Events</a></li> -->
 
-                <li><a href="https://drive.google.com/drive/folders/1I_UhlJ3BJXNws34uq_As5xthoUe6L4hL?usp=sharing"
+                <li><a style="font-weight: bold; font-size: .9em;" class="outside-link"
+                        href="https://drive.google.com/drive/folders/1I_UhlJ3BJXNws34uq_As5xthoUe6L4hL?usp=sharing"
                         target="_blank" rel="noopener noreferrer">Archives</a></li>
-                <li><a href="https://docs.google.com/document/d/1L32Nf1glzoDRwNoTBFLNTJn5WfENSwUQMJab2Hxl-fc/edit?usp=sharing"
+                <li><a style="font-weight: bold; font-size: .9em;" class="outside-link"
+                        href="https://docs.google.com/document/d/1L32Nf1glzoDRwNoTBFLNTJn5WfENSwUQMJab2Hxl-fc/edit?usp=sharing"
                         target="_blank" rel="noopener noreferrer">Code of Conduct</a></li>
                 <li>
 
@@ -97,20 +102,58 @@
     </header>
 
     <main>
-        <img id="center-image" src="images/background.png" alt="Kagay-an FurMeet banner" loading="lazy">
+        <div>
+            <img id="center-image" src="images/background.png" alt="Kagay-an FurMeet banner" loading="lazy">
+            <h1>THE FIRST AND ONLY FURRY MEETUP IN CDO!</h1>
+            <div class="button-container">
+                <a href="/events.html" class="btn btn-primary" rel="noopener noreferrer" r ole="button">Check
+                    Events!
+                    <i class="fa-solid fa-paw"></i>
+                </a>
+                <a href="https://www.facebook.com/kagayanfurmeet" class="btn btn-outline" target="_blank"
+                    rel="noopener noreferrer" role="button">Follow us on Facebook 🐺</a>
+                <a href="https://discord.gg/nmNkrumNvT" class="btn btn-outline" target="_blank"
+                    rel="noopener noreferrer" r ole="button">Our Discord Server 🐾</a>
+            </div>
+        </div>
 
-        <h1>THE FIRST AND ONLY FURRY MEETUP IN CDO!</h1>
 
-        <div class="button-container">
-            <a href="https://www.facebook.com/kagayanfurmeet" class="button-link" target="_blank"
-                rel="noopener noreferrer" role="button">Follow us on Facebook 🐺</a>
-            <a href="https://discord.gg/nmNkrumNvT" class="button-link" target="_blank" rel="noopener noreferrer"
-                role="button">Our Discord Server 🐾</a>
+
+        <div class="features">
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fa-regular fa-face-grin-beam"></i>
+
+                </div>
+                <p class="feature-title">Fun Events</p>
+                <p class="feature-desc">Games, fursuit parades, arts & crafts, and more. Every meetup is packed with
+                    activities for all ages.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fa-regular fa-handshake"></i>
+                </div>
+                <p class="feature-title">Safe Community</p>
+                <p class="feature-desc">We follow a clear code of conduct. Everyone is welcome — fursuiters,
+                    artists,
+                    and
+                    newcomers alike.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <i class="fa-regular fa-camera"></i>
+                </div>
+                <p class="feature-title">Memories & Archives</p>
+                <p class="feature-desc">Browse photos and recaps from past events in our growing archive of KFM
+                    meetups.
+                </p>
+            </div>
         </div>
     </main>
 
+
     <footer>
-        <p>&copy; 2026 Puting Lobo Studios & <span style="font-size: 12px;">jyn626@github</span></p>
+        <p>&copy; 2026 Puting Lobo Studios & <span style="font-size: 12px;">jyn626</span></p>.
     </footer>
 
     <script src="script.js"></script>
