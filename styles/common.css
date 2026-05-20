@@ -280,6 +280,43 @@ footer {
   color: #666;
 }
 
+.furry-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 2rem 0;
+}
+
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.divider-paws {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #aaa;
+}
+
+.divider-paws .fa-paw {
+  font-size: 14px;
+}
+
+.divider-paws .fa-paw.fa-lg {
+  font-size: 20px;
+  color: #888;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px 40px;
+  gap: 100px;
+}
+
 @media (max-width: 768px) {
   .navbar {
     display: none;

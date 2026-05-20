@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kagay-an FurMeet (KFM)</title>
+
+  <meta name="description" content="The first and only furry meetup in CDO!">
+  <meta property="og:image" content="images/icon.png">
+
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <link rel="stylesheet" href="styles/common.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+  <!-- animate.css -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+</head>
+
+<body>
+
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="navbar-title">
+        <i class="fa-solid fa-paw"></i>
+        <h1>KFM</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="home-link">Home</a></li>
+        <!-- <li><a href="events.html">Events</a></li> -->
+
+        <li><a style="font-weight: bold; font-size: .9em;" class="outside-link" href="/archives.html"
+            rel="noopener noreferrer">Archives</a></li>
+        <li><a style="font-weight: bold; font-size: .9em;" class="outside-link"
+            href="https://docs.google.com/document/d/1L32Nf1glzoDRwNoTBFLNTJn5WfENSwUQMJab2Hxl-fc/edit?usp=sharing"
+            target="_blank" rel="noopener noreferrer">Code of Conduct</a></li>
+        <li>
+
+        </li>
+        <div id="eventsToggle" class="dropdown attend-kfm-btn">
+          <span style="color: white;" aria-expanded="false">Attend <span style="font-weight: bold;">KFM</span>!</span>
+          <div class="dropdown-menu" id="eventsMenu" aria-hidden="true">
+            <a href="https://forms.gle/pSHAnJnHkyqGo1bMA" class="event-item" target="_blank"
+              rel="noopener noreferrer">Keeping Up With the Furs</a>
+          </div>
+        </div>
+
+
+      </ul>
+
+
+
+    </nav>
+
+
+    <!-- mobile navigation -->
+    <div id="mobile-navigation" class="mobile-navigation-container"
+      style="margin-left: 10px; margin-top: 8px; padding: 12px; border-radius: 12px; width: fit-content; box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;">
+
+
+      <!-- menu icon container  -->
+      <div style="display: flex; flex-direction: column; gap: 5px;">
+        <!-- bars -->
+        <div style="width: 35px; height: 5px; background-color: black; border-radius: 12px;"></div>
+        <div style="width: 35px; height: 5px; background-color: black; border-radius: 12px;"></div>
+        <div style="width: 35px; height: 5px; background-color: black; border-radius: 12px;"></div>
+      </div>
+    </div>
+
+    <ul id="mobile-navigation-links" class="mobile-nav-links    ">
+      <div style=" display: flex; justify-content: space-between; padding: 2px;">
+        <div class="navbar-title">
+          <i class="fa-solid fa-paw"></i>
+          <h1>KFM</h1>
+        </div>
+        <button class="close-mobile-nav" id="close-mobile-nav"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div>
+
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li class="dropdown">
+          <a href="#" id="eventsToggle" aria-expanded="false">Attending KFM</a>
+          <div class="dropdown-menu" id="eventsMenu" aria-hidden="true">
+            <a href="#" class="event-item" target="_blank" rel="noopener noreferrer">No Events</a>
+          </div>
+        </li>
+        <li><a href="https://drive.google.com/drive/folders/1I_UhlJ3BJXNws34uq_As5xthoUe6L4hL?usp=sharing"
+            target="_blank" rel="noopener noreferrer">Archives</a></li>
+        <li><a href="https://docs.google.com/document/d/1L32Nf1glzoDRwNoTBFLNTJn5WfENSwUQMJab2Hxl-fc/edit?usp=sharing"
+            target="_blank" rel="noopener noreferrer">Code of Conduct</a></li>
+      </div>
+
+    </ul>
+  </header>
+
+  <main>
+    <div style="margin-top: 50px;">
+
+      <h1>Archives</h1>
+
+      <div class="furry-divider">
+        <span class="divider-line"></span>
+        <div class="divider-paws">
+          <i class="fa-solid fa-paw"></i>
+          <i class="fa-solid fa-paw"></i>
+          <i class="fa-solid fa-paw fa-lg"></i>
+          <i class="fa-solid fa-paw"></i>
+          <i class="fa-solid fa-paw"></i>
+        </div>
+        <span class="divider-line"></span>
+      </div>
+
+      <iframe src="https://drive.google.com/file/d/10dslZ-8LrW7qMqntugpmzotY7ZCjxSWW/preview" width="1200"
+        height="800"></iframe>
+    </div>
+
+  </main>
+
+
+  <footer>
+    <p>&copy; 2026 Puting Lobo Studios & <span style="font-size: 12px;">jyn626</span></p>.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+
+</html>
